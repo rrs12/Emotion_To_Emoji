@@ -1,0 +1,59 @@
+body
+{
+  background-image: url("https://www.forbesindia.com/fbimages/900x600/proportional/jpeg/blog/wp-content/uploads/2020/12/Regulating-Emotions_BG.jpg");
+  background-size: contain;
+  background-position: bottom;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 30px;
+}
+.emoji
+{
+  font-size:40px;
+}
+.emotion_div{
+  background-color: #9bbbd4b0;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.pred{
+  background-color: #3f5159ce;
+  color: lightsalmon;
+  width:50%;
+  border-radius: 10px;
+}
+
+button{
+  background-color: darkslateblue;
+  color: white;
+}
+button:hover{
+  background-color:rgba(71, 61, 139, 0.856) ;
+  color: white !important;
+}
+.result{
+  visibility:hidden ;
+}
+.web{
+  background-color: #3f5159ce;
+  color: lightsalmon;
+  width:fit-content;
+  border-radius: 10px;
+ padding: 6px;
+}
